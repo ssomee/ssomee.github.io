@@ -1,0 +1,50 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+*{margin:0; border:0; padding: 0;}
+body{font-size: 14px;  font-family:"Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; overflow-y: scroll; letter-spacing: -1px; overflow-y: scroll;}
+
+
+#title{padding-top: 15px; width: 100%; height: 40px; background-color: #7E48B6; text-align:center; position: relative;}
+#title>span{color: white; width: 100%; font-size: 20px; }
+#title>a>img{position: absolute; left: 2%; top: 23%; width: 20px; z-index: 100; margin-top: 5px;}
+ 
+
+/* section */
+#main{width: 100%; margin: 0 auto; text-align: left;}
+#main .chat{right: 2%; top: 85px; font-size:0;}
+
+#main>ul>li{display: block; text-decoration: none; color: #0e0e0e; font-size: 15px; list-style: none; padding: 0 0 0 2%; border-bottom: 1px solid #dddddd; position: relative;}
+
+
+#main>div>a>img{position: absolute; right:2%; top:50% margin-top: -20px; z-index: 100;}
+
+
+#main>ul>li>span.captitle{font-size: 20px; font-weight: bold; margin-top: 15px;}
+#main>ul>li>span.capcap{font-size: 12px; color: #8C9093; line-height: 130%;}
+#main>ul>li>span.capb{margin-bottom: 15px;}
+
+#main>ul>li>span.cap{margin-right: 25px; color: #8c9093;}
+#main>ul>li>span.tel{float: left; margin-top: 5px; color: #8c9093;}
+#main>ul>li>div.rect{border: 1px solid #cbcbcb; width: 92px; margin-left: 55px; padding: 4px 4px 4px 8px; margin-top: 15px; margin-bottom: 15px; border-radius: 2px;}
+#main>ul>li>div.rect>img{margin-right: 8px; vertical-align: middle;}
+#main>ul>li.ol{padding-top: 15px; padding-bottom: 15px;}
+
+a:focus{outline: none;}
+
+
+/* 지도section */
+#content2{overflow: hidden; width: 96%; margin-left: 2%; margin-top: 5%;}
+
+
+/* footer부분 */
+#nav{position: fixed; bottom: 0; left: 0; z-index: 300; width: 100%; height: 70px;} 
+#nav .main_menu{width: 100%; border-bottom: 1px solid #dddddd; border-top: 1px solid #dddddd; background: #f6f6f6; text-align: center; overflow: hidden; font-size: 14px; font-family:"Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px; height: 100%;}
+#nav .main_menu:after{content:""; display: block; clear: both;}
+#nav .main_menu li{float: left; width: 25%;}
+#nav .main_menu li a{display: block; border: none; height: 70px; color: #aec0c5;}
+#nav .main_menu li a.tab_m{border-right: 1px solid #dddddd;}
+#nav .main_menu li a.on{color: #7832a0;}
+#nav .main_menu li img{ margin: 0 0 -5px 0; taransition: all 1s; }
+

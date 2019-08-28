@@ -1,0 +1,31 @@
+﻿html{overflow-y: scroll;}
+
+#header{position: fixed; top: 0; left: 0; width: 100%; height: 50px; z-index: 1000; background: #f5fbfe; }
+#header .bell{float: left; background: url(../images/ticon1.png) no-repeat; width: 30px; height: 32.5px; overflow: hidden; margin-top: 10px; margin-left: 15px;  cursor: pointer;}
+#header .bell .red{padding:5px 8px; background: #ff0000; color: #ffffff; border-radius: 100px; position: absolute; top: 5px; left: 34px; font-weight: bold; font-size: 10px; display: block;}
+#header .bell_memo{color: #333333; background: #ffffff; padding: 10px 20px; font-size: 13px; border-radius: 15px; border-top-left-radius: 0px;  z-index: 21; position: absolute; top: 50px; left: 20px; font-family: '맑은 고딕', sans-serif; display: none; }
+#header .close{padding:3px 8px; background: #ffffff; color: #555555; border-radius: 100px; position: absolute; top: 6px;  right: -35px; font-weight: bold; font-size: 16px; z-index: 22; cursor: pointer;}
+#header .main_logo{position: absolute; left: 50%; width: 100px; margin-left: -50.5px; margin-top: 10px;}
+#header .main_logo span{display: none;}
+#header .wish_list{float: right;background: url(../images/ticon2.png) no-repeat; width: 30px; height: 32.5px; overflow: hidden;margin-top: 10px;margin-right: 15px; cursor: pointer;}
+#header .bell{background-position: 0px -32px;}
+#header .wish_list{background-position: 0px -32px;}
+
+#footer{position: fixed; bottom: 0; left: 0; height: 55px; background: url(../images/footer_bg.png) repeat; z-index: 300; width: 100%; border-top: 0px; margin-top: 0px;}
+#footer .footer_list{display:block; height: 100%; width: 20%;  text-align: center; float: left;}
+#footer .footer_list a{display:block; height: 100%; width: 100%;padding: 10px 0px 0px 0px;}
+#footer .footer_list img{display: block;  width: 25%; margin: 0 auto; margin-bottom: 1px;}
+#footer .footer_list span{display: block; text-align: center; font-size: 11px; color:#555555;}
+#footer .footer_list.active span{color:#44A7F5;}
+
+
+.swiper-button-next, .swiper-button-prev{height: 35px; width: 35px;}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{background: url(../images/left.png) no-repeat;}
+.swiper-button-next, .swiper-button-prev{height: 35px; width: 35px;}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{background: url(../images/right.png) no-repeat;}
+
+
+
+
+
+pointer[]갖키는 사람,바늘,시침,지시봉,교편복사

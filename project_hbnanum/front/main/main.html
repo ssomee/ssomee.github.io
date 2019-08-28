@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>행복나눔</title>
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../common/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/notosanskr.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="../common/css/animations.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/danya_style.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/mobile.css" />
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="../common/js/slick.js"></script>
+<script type="text/javascript" src="../common/js/css_common.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div class="sec-header">
+		<div class="sec-base-w pos-r">
+			<h1><a href="../main/main.html"><img src="../common/images/logo.png" alt="행복나눔"></a></h1>
+			<ul>
+				<li><a href="../intro/intro.html">행복나눔 소개</a></li>
+				<li><a href="../business/coop.html">사업소개</a></li>
+				<li><a href="../calender/narmi.html">배송 캘린더</a></li>
+				<li><a href="../board/list.html">게시판</a></li>
+			</ul>
+			<div class="sec-util">
+				<div class="line-r"><a href="../member/login.html">로그인</a></div>
+				<div><a href="../member/join_form.html">회원가입</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sec-main-vi">
+		<div style="background:url('../common/images/bg_main_vi_01.jpg') center top no-repeat"><a href=""><img src="../common/images/main_vi_01_trans.png" alt="" /></a></div>
+		<div style="background:url('../common/images/bg_main_vi_01.jpg') center top no-repeat;"><a href=""><img src="../common/images/main_vi_01_trans.png" alt="" /></a></div>
+		<div style="background:url('../common/images/bg_main_vi_01.jpg') center top no-repeat;"><a href=""><img src="../common/images/main_vi_01_trans.png" alt="" /></a></div>
+	</div>
+	<script>
+	$(document).ready(function() {
+		$('.sec-main-vi').slick({
+			autoplay: true,
+			autoplaySpeed: 5000,
+			dots: true,
+			arrows:false,
+			draggable: false,
+			fade: true,
+			speed: 1000
+		});
+		$( ".sec-main-row-01 .sec-img li" ).mouseenter(function() {
+			$(this).find("img.off").animate({ "top": "100%", "opacity":"0" }, "300" );
+		}).mouseleave(function() {
+			$(this).find("img.off").animate({ "top": "0", "opacity":"1" }, "300" );
+		});
+	});
+	</script>
+	<div class="sec-main-row-01">
+	 	<div class="sec-base-w">
+			<div class="tit  ">행복나눔 사업소개</div>
+			<div class="txt   ">행복나눔의 사업내용을 확인해 보세요</div>
+			<div class="sec-img">
+				<ul>
+					<li class="bx03   "><a href="../business/coop.html"><img src="../common/images/main_ban_0103.jpg" alt="" class="off"  /><img src="../common/images/main_ban_0103_on.jpg" alt="" class="on" /></a></li>
+					<li class="bx02  "><a href="../business/hope.html"><img src="../common/images/main_ban_0102.jpg" alt="" class="off"  /><img src="../common/images/main_ban_0102_on.jpg" alt="" class="on" /></a></li>
+					<li class="bx01  "><a href="../business/plus.html"><img src="../common/images/main_ban_0101.jpg" alt="" class="off" /><img src="../common/images/main_ban_0101_on.jpg" alt="" class="on" /></a></li>
+				</ul>
+			</div>
+		</div>
+	 </div>
+
+	 <div class="sec-main-row-02">
+		<div class="sec-base-w">
+			<div class="tit ">신속한 배송 서비스</div>
+			<div class="txt ">고객님의 상품 배달 날짜를 확인해 보실 수 있습니다.</div>
+
+			<div class="sec-btn">
+				<a href="../calender/narmi.html">정부양곡 보러가기</a>
+				<a href="../calender/nutrition.html">영양플러스 보러가기</a>
+			</div>
+		</div>
+	 </div>
+
+	 <div class="sec-main-row-03">
+		<div class="sec-base-w">
+			<div class="sec-left">
+				<div class="sec-btn">
+					<div class="bg01"><a href="../board/qna_list.html">질문게시판</a></div>
+					<div class="bg02"><a href="../board/faq_list.html">자주묻는 질문</a></div>
+					<div class="bg03"><a href="../board/photo_list.html">포토 갤러리</a></div>
+				</div>
+				<div class="sec-tel"> 
+					<a href="" class="fl-left">070-7518-7362<span class="sm">(본사)</span></a>
+					<a href="" class="fl-right">070-4656-7362<span class="sm">(물류센터)</span></a>
+				</div>
+			</div>
+			<div class="sec-right">
+				<div class="tit">공지사항 <div class="btn-more"><a href="../board/list.html">더보기</a></div></div>
+				<ul>
+				<li><a href="../board/view.html">희망나르미사회적협동조합 3월 활동보고</a></li>
+				<li><a href="../board/view.html">18년도 양곡할인 지원사업 홍보협조 복지부 공..</a></li>
+				<li><a href="../board/view.html">희망나르미사회적협동조합 중앙본부 2월 알림...</a></li>
+				<li><a href="../board/view.html">희망나르미사회적협동조합 중앙본부 2월 알..</a></li>
+				</ul>
+			</div>
+		</div>
+	 </div>
+ 
+ 
+	<footer class="sec-footer">
+		<div class="sec-base-w">
+			<div class="sec-logo">
+				<img src="../common/images/ft_logo.jpg" alt="행복나눔" />
+			</div>
+			<div class="sec-row-01">
+				<ul>
+					<li class="red line-b"><a href="">이용약관</a></li>
+					<li><a href="">개인정보취급방침</a></li>
+					<li><a href="">오시는 길</a></li>
+				</ul>
+			</div>
+			<div class="sec-row-02">
+				<p>
+					<span>사회적협동조합 행복나눔 사업자등록번호 : 287-82-00092</span>         <span class="line">대표자 : 김기흥</span>
+				</p>
+				<p>
+					<span>경기도 부천시 신흥로377번길 23, 1층 행복나눔 (내동)</span>
+				</p>
+				<p>
+					<span>전화 : 070-7518-7362(본사), 070-4656-7362(물류센타)</span>         <span class="line">팩스 : 070-7709-9950</span>
+				</p>
+			</div>
+			<div class="sec-copy">COPYRIGHT ⓒ 2012 사회적협동조합 행복나눔. ALL RIGHTS RESERVED.</div>
+		</div>
+	</footer>
+</div><!-- end : wrap : id -->
+</body>
+</html>
+ 

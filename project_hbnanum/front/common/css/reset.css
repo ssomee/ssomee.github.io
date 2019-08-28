@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{margin:0; padding:0}
+html{width:100%; height:100%}
+body{position:relative; font-size:14px;font-family:'Noto Sans KR', dotum,"돋움",sans-serif; color:#777; -webkit-text-size-adjust: 100%;	-moz-text-size-adjust: 100%;-ms-text-size-adjust:100%;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0; padding:0}
+ul,ol,li{list-style:none}
+img, fieldset{border:none;vertical-align:middle}
+legend, caption{display:none}
+textarea, button{vertical-align:middle}
+button{cursor:pointer;border:none;overflow:visible;}
+input, select{height:28px;line-height:28px;vertical-align:middle; background:#fff; border:1px solid #e3e3e3; font-family:'Noto Sans KR', dotum,"돋움",sans-serif; color:#777;}
+input,option{padding:2px}
+select{height:33px; padding:2px}
+textarea{padding:3px; vertical-align:middle; background:#fff; border:1px solid #ddd; font-family:'Noto Sans KR', dotum,"돋움",sans-serif; color:#777; font-size:13px;}
+.checkbox{padding:0; border:0}
+.disNone{display:none}
+a{text-decoration:none; color:#777}
+a:hover, a:focus, a:active{text-decoration:none;}
+table{width:100%; border-collapse:collapse}
+map area{outline:none;}
+button{margin:0; padding:0; background:none; font-size:14px; font-family:'Noto Sans KR', dotum,"돋움",sans-serif; color:#777; word-break:break-all;}
+input[type="password"]{}
+input[type="radio"]:focus{outline:1px dotted #888;}
+::-webkit-input-placeholder {color:#4a4098;}
+:-moz-placeholder {color:#4a4098; opacity:1;}
+::-moz-placeholder {color:#4a4098; opacity:1;}
+:-ms-input-placeholder {color:#4a4098;}
+:placeholder-shown {color:#4a4098;}
+.clearB{clear:both}
+

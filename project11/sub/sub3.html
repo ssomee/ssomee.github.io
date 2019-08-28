@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- 최신버전유지 -->
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="Author" content="모바일 팀 프로젝트, 임다솜, 박소희, 허은지"/>
+	<meta name="Keywords" content="모바일 팀 프로젝트, Bookee, 커피와 책, 커피와 책 예약, coffee book"/>
+	<meta name="Description" content="모바일 팀 프로젝트 bookee입니다. 커피와 책을, 커피마시며 책을 읽어보세요 커피와 책을 예약가능한 어플입니다."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="white" /> <!-- 모바일 상태바 색상 화이트 -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />	
+	<!-- <meta http-equiv="refresh" content="3;URL=index.html" /> -->
+	<title>BOOKEE</title>
+	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/layout.css" />
+	<link rel="stylesheet" href="../css/sub3.css" />
+<!-- 	<script src="../js/jquery-1.9.1.min.js"></script>	 -->
+	<script src="../js/jQuery v1.7.1.js"></script>
+	<script src="../js/DB_springMove_fn.js"></script>	
+	<script src="../js/load_default.js"></script>
+	<script src="../js/load_ios.js"></script>
+	<script src="../js/script.js"></script>
+	<link rel="apple-touch-icon-precomposed" href="../start/app_icon.png" />
+	<link rel="apple-touch-startup-image" href="../start/startup.png"/> 
+</head>
+
+
+
+<body>
+	<header>
+		<div id="title"><span>더보기</span></div>
+	</header>
+	
+	<section>
+		<div id="main">
+			<ul>
+				<li><a href="sub3-1.html"><span>공지사항</span><img src="../img/arrow_right.png" class="ar1" width="40" alt="" /></a></li>
+				<li><a href="sub3-1.html"><span>이벤트</span><img src="../img/arrow_right.png" class="ar2" width="40" alt="" /></a></li>
+				<li><a href="sub3-1.html"><span>이용내역</span><img src="../img/arrow_right.png" class="ar3" width="40" alt="" /></a></li>
+				<li><a href="sub3-1.html"><span>고객문의</span><img src="../img/arrow_right.png" class="ar4" width="40" alt="" /></a></li>
+				<li><a href="sub3-1.html"><span>설정</span><img src="../img/arrow_right.png" class="ar5" width="40" alt="" /></a></li>
+			</ul>
+			<div class="chat">
+				<a href="catbot.html"><img src="../images/magician.png" width="120" alt="more" style="border: 1px solid #7832a0;
+border-radius: 62px;" /></a>
+			</div>			
+		</div><!--  id="main" -->
+		<script> 
+	$('.chat').DB_springMove({
+		key:'e24102',                //라이센스키
+		dir:'y',               //방향축('x','y')
+		mirror:-1,              //반대방향이동(1,-1)
+		radius:10,             //반경
+		motionSpeed:0.1     //속도(0~1)
+	})
+		</script>	
+	</section>
+	
+	<footer>
+		<div id="nav">
+			<ul class="main_menu bold verd">
+				<li><a href="../index.html" title="home" class="tab_m" ><img src="../img/home.png"  width="40px" height="40px" alt="home"/><br />HOME</a></li>
+				<li><a href="sub1.html" title="
+Around_me" class="tab_m"><img src="../img/point.png"  width="40px" height="40px" alt="" /><br />내 주변</a></li>
+				<li><a href="sub2.html" title="
+My_Info" class="tab_m"><img src="../img/my.png"  width="40px" height="40px" alt="info" /><br />내 정보</a></li>
+				<li><a href="sub3.html" title="More" class="on"><img src="../img/more_on.png"  width="40px" height="40px" alt="more" /><br />더보기</a></li>
+			</ul>
+		</div>	
+	</footer>
+</body>
+</html>

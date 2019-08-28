@@ -1,0 +1,18 @@
+{
+    "host": "som9020.dothome.co.kr",
+    "username": "som9020",
+    "password": "dla5359918!",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 0,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode",
+        "README.md"
+    ],
+    "ignoreWrongFileEncoding": true
+}

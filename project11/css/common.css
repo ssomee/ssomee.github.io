@@ -1,0 +1,36 @@
+﻿*{margin: 0; padding: 0; -webkit-text-size-adjust: none;}
+/* 이미지 두배로 작업 -레티나 디스플레이(액정 기술) */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{color: #666666; font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial;}
+a, img, fieldset, input{border:0;}
+a{outline: none;}
+
+ul, ol, li, dl{list-style: none;}
+h1, h2, h3, h4, h5, h6{font-size: 100%; font-weight: normal;}
+hr{display: none;}
+a{color: inherit;}/* inherit 위의 태그속성을 상속받음 */
+a, a:link{color: #333333; text-decoration: none;}
+a:visited{color: #333333;}
+a:hover, a:active{color: #333333; text-decoration: none;}
+em, i, address{font-style: normal; font-weight: normal;}
+legend, caption{display: none; clear: both;}
+input, textarea, select, button, table{font-size: inherit; font-family: inherit; line-height: inherit;}
+section, nav, article, aside, hgroup, header, footer{display: block;}
+textarea, input{background: url(none;); -webkit-border-radius: 1px; /* -webkit-appearance:none; check box 크롬에서 안보임..*/}
+textarea{resize: none;}
+label{cursor: pointer;}
+.helv{font-family:'돋움', HelveticaNeue, Dotum, '굴림', Gulim, Apple-Gothic, sans-serif;}
+.verd{font-family: Verdana, '돋움', HelveticaNeue, Dotum, '굴림', Gulim, Apple-Gothic, sans-serif;}
+.bold{font-weight: bold;}
+
+textarea:focus{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+input:focus{
+  outline: none;
+}
+

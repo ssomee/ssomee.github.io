@@ -1,0 +1,78 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+*{margin:0; border:0; padding: 0;}
+body{font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px;}
+
+
+input::-webkit-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 90%;}
+input::-moz-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 90%;}
+input::-ms-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 90%;}
+input::placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 90%;}
+
+
+#title{text-align: left; padding: 14px 5% 0 5%; width: 90%; height: 36px; background-color: #7034AE; position: relative;}
+#title>span{color: white; width: 100%; padding: 0 0 0 60px; font-size: 20px; font-family:"Noto Sans KR", "Malgun Gothic";}
+#title>a>img{ position: absolute; left: 5%; top: 15px; width: 24px; z-index: 100; vertical-align:middle;}
+ 
+ .fl{float: left;}
+ li.fl{padding: 0 0 0 5%;}
+ .fr{float: right;}
+ .cb{clear: both;}
+/* section */
+
+#main{width: 100%;}
+/* 음료, 도서 탭메뉴 */
+.sub_menu{height: 100%; width: 100%;}
+.sub_menu > ul{ width: 100%;}
+.sub_menu > ul:after{content:""; display: block; clear: both;}
+.sub_menu > ul > li{float:left; width: 50%; background-color: white; /* #560243; */}
+.sub_menu > ul > li.tab_out{padding-bottom: 4px; border-bottom:1px solid #720359; }
+.sub_menu > ul > li.tab_on{border-bottom:5px solid #720359; color: #720359; }
+.sub_menu > ul > li.tab_on a{color: #720359;}
+.sub_menu > ul > li > a{display: block; text-align: center; padding: 9px 10px 8px; font-size: 16px; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;}
+
+/* 국내, 국외셀렉트메뉴 */
+.bookoption{width: 90%; background:#CCCCCC; padding: 5px 5% 5px 5%;}
+#main .bookoption select#book1{border: 1px solid #CCCCCC; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif!important; width: 49%;}
+#main .bookoption select#book2{border: 1px solid #CCCCCC; font-family: "Noto Sans KR", "Malgun Gothic", sans-serif!important; width: 49%;}
+#main .bookoption option{font-family:"Noto Sans KR", "Malgun Gothic", sans-serif!important;}
+
+/* 탭 하위 도서 상세 메뉴 */
+.sub_title > ul > li:after{content:""; display: block; clear: both;}
+.sub_title > ul > li{border-bottom: 1px solid #cbcbcb;}
+.sub_title > ul > li.last{border-bottom: 1px solid #cbcbcb; }
+.sub_title > ul > li > a{display: block; padding: 5%; height: 120px;}
+.sub_title > ul > li > a > img{float: left; margin-right: 5%;}
+.sub_title > ul > li > a > p{display: block; font-family:"Noto Sans KR", "Malgun Gothic"; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sub_title > ul > li > a > p.title{ font-size: 1.5em; color: #555555; padding-bottom: 7px;}
+.sub_title > ul > li > a > p.aut{ font-size: 1.3em; color: #333333; padding-bottom: 5px;}
+.sub_title > ul > li > a > p.publisher{font-size: 1.1em; color: #AAAAAA; padding-bottom: 10px;}
+.sub_title > ul > li > a > p.year{font-size: 1em; color: #222222; }
+.sub_title > ul > li > a > p.book{font-size: 1em; color: #720359; }
+.sub_title > ul > li > a > p.interval{font-size: 1em; color: #666666; }
+
+/* 이미지 사이즈 작은거 하나만 따로 설정 */
+.sub_title > ul > li.pdb > a{display: block; padding: 5% 5% 1%; height: 120px;}
+.sub_title > ul > li.pdb > a > p.title{ font-size: 1.5em; color: #555555; padding-bottom: 4px;}
+.sub_title > ul > li.pdb > a > p.aut{ font-size: 1.3em; color: #333333; padding-bottom: 3px;}
+.sub_title > ul > li.pdb > a > p.publisher{font-size: 1.1em; color: #AAAAAA; padding-bottom: 5px;}
+
+
+
+a:focus{outline: none;}
+
+
+/* footer부분 */
+#footer{position: relative; bottom:0px; width: 100%;  font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; margin-top: 0px;}
+#footer>.click{width: 100%; text-align: center; background: #CCCCCC; height: 150px; padding-top: 55px;}
+#footer>.click>p{color: #EEEEEE;}
+#nav{position: fixed; bottom: 0; left: 0; z-index: 300; width: 100%; height: 70px;} 
+.main_menu{width: 100%; border-bottom: 1px solid #dddddd; border-top: 1px solid #dddddd; background: #f6f6f6; text-align: center; overflow: hidden; font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px; height: 100%;}
+.main_menu:after{content:""; display: block; clear: both;}
+.main_menu li{float: left; width: 25%;}
+.main_menu li a{display: block; border: none; height: 60px; color: #aec0c5;}
+.main_menu li a.tab_m{border-right: 1px solid #dddddd;}
+#nav .main_menu li a.on{color: #7832a0;}
+.main_menu li img{ margin:0 0 -5px 0; taransition: all 1s; }

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>행복나눔</title>
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../common/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/notosanskr.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="../common/css/animations.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/style.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/danya_style.css" />
+<link rel="stylesheet" type="text/css" href="../common/css/mobile.css" />
+<script src="../common/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="../common/js/slick.js"></script>
+<script type="text/javascript" src="../common/js/css_common.js"></script>
+</head>
+<body>
+<div id="wrap">
+	<div class="sec-header">
+		<div class="sec-base-w pos-r">
+			<h1><a href="../main/main.html"><img src="../common/images/logo.png" alt="행복나눔"></a></h1>
+			<ul>
+				<li><a href="../intro/intro.html">행복나눔 소개</a></li>
+				<li><a href="../business/coop.html">사업소개</a></li>
+				<li><a href="../calender/narmi.html">배송 캘린더</a></li>
+				<li><a href="../board/list.html">게시판</a></li>
+			</ul>
+			<div class="sec-util">
+				<div class="line-r"><a href="../member/login.html">로그인</a></div>
+				<div><a href="../member/join_form.html">회원가입</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sec-content bx-join">
+		<div class="sec-base-w pos-r">
+
+			<div class="sec-tit-01">
+				<h2>회원가입</h2>
+			</div>
+			<div class="join-step">
+				<ul>
+					<li class="bg1"><span class="arrow"></span><div class="tit">STEP 1</div><div class="txt">가입신청</div> <span class="line-r"></span></li>
+					<li class="bg2 "><span class="arrow"></span><div class="tit">STEP 2</div><div class="txt">약관동의</div> </li>
+					<li class="bg3 on"><span class="arrow"></span><div class="tit">STEP 3</div><div class="txt">정보입력</div> </li>
+					<li class="bg4"><span class="arrow"></span><div class="tit">STEP 4</div><div class="txt">가입완료</div> </li>
+				</ul>
+			</div>
+			<div class="sec-ul-01">
+				<ul>
+					<li>· 아래 정보를 입력하신 후 가입을 진행하여 주시기 바랍니다. </li>
+				</ul>
+			</div>
+
+			<div class="sec-join-form">
+				<h3>기본정보</h3>
+
+				<div class="tb_01_w">
+					<table>
+					<colgroup><col width="180" /><col/></colgroup>
+						<tr>
+							<th>아이디<i>*</i></th>
+							<td><input type="text" class="input_w200"  /><a href="javascript: check_id();" class="btn-02">중복확인</a> <span class="info_txt">  4~20자리 영문 및 소문자만 가능합니다.</span> </td>
+						</tr>
+						<tr>
+							<th>비밀번호<i>*</i></th>
+							<td><input type="text" class="input_w200"  /> <span class="info_txt">  9~20자리 영문, 숫자,특수문자로 조합하여 주세요</span> </td>
+						</tr>
+						<tr>
+							<th>비밀번호 확인<i>*</i></th>
+							<td><input type="text" class="input_w200"  /> <span class="info_txt">  9~20자리 영문, 숫자,특수문자로 조합하여 주세요</span> </td>
+						</tr>
+						<tr>
+							<th>회원구분<i>*</i></th>
+							<td>
+								<label for=""><input type="radio" name="" /> 개인</label>
+								<label for=""><input type="radio" name="" /> 기업</label>
+								<label for=""><input type="radio" name="" /> 단체</label>
+							</td>
+						</tr>
+						<tr>
+							<th>상호(기업, 단체명)<i></i></th>
+							<td><input type="text" class="input_w200"  />  </td>
+						</tr>
+						<tr>
+							<th>이름(대표자명)<i>*</i></th>
+							<td><input type="text" class="input_w200"  />  </td>
+						</tr>
+						<tr>
+							<th>이메일<i>*</i></th>
+							<td><input type="text" class="input_w200"  /> @  <input type="text" class="input_w200"  /> 
+							<select name="" id="" class="input_w100">
+								<option value="">직접입력</option>
+							</select>
+							<div class="info_txt mt5 ml5">행복나눔의 다양한 정보를 이메일로 받으실 수 있습니다.</div> 
+							</td>
+						</tr>
+						<tr>
+							<th>전화번호<i>*</i></th>
+							<td><input type="text" class="input_w200"  />  <span class="info_txt">  -없이 입력해 주세요.</span>  </td>
+						</tr>
+						<tr>
+							<th>휴대폰 번호</th>
+							<td><input type="text" class="input_w200"  />  <span class="info_txt">  -없이 입력해 주세요.</span>  </td>
+						</tr>
+						<tr>
+							<th>주소<i></i></th>
+							<td>
+								<a href="javascript: check_id();" class="btn-02 ml5">우편번호</a> 
+								<input type="text" class="input_w100"  />  
+								<input type="text" class="input_w500"  /> <input type="text" class="input_w200"  /> 
+							</td>
+						</tr>
+						<tr>
+							<th>사업자등록번호<i></i></th>
+							<td>
+ 								<input type="text" class="input_w100"  />  - 
+								<input type="text" class="input_w100"  />  -
+								<input type="text" class="input_w100"  />  
+							</td>
+						</tr>
+						<tr>
+							<th>사업자등록증</th>
+							<td>
+								<a href="javascript: check_id();" class="btn-02 ml5">파일첨부</a>
+ 								<a href="#" >단감소프트.jpg</a> <a href=""><img src="../common/images/ico_file_del.jpg" alt="삭제" /></a>
+							</td>
+						</tr>
+						<tr>
+							<th>수신 동의</th>
+							<td>
+ 								<input type="checkbox" name="" id="chk_01" /> <label for="chk_01">이메일 수신에 동의합니다.</label>
+ 								<input type="checkbox" name="" id="chk_02" /> <label for="chk_02">SMS 수신에 동의합니다.</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+ 				<h3>담당자정보</h3>
+				<div class="tb_01_w">
+					<table>
+					<colgroup><col width="180" /><col/></colgroup>
+						<tr>
+							<th>담당자명</th>
+							<td><input type="text" class="input_w200"  /> /직급 <input type="text" class="input_w200"  /></td>
+						</tr>
+						<tr>
+							<th>담당자 연락처</th>
+							<td><input type="text" class="input_w200"  /> <span class="info_txt">    -없이 입력해 주세요.</span> </td>
+						</tr>
+						<tr>
+							<th>담당자 휴대폰</th>
+							<td><input type="text" class="input_w200"  /> <span class="info_txt">    -없이 입력해 주세요.</span> </td>
+						</tr>
+						<tr>
+							<th>담당자 이메일</th>
+							<td><input type="text" class="input_w200"  /> @  <input type="text" class="input_w200"  /> 
+							<select name="" id="" class="input_w100">
+								<option value="">직접입력</option>
+							</select>
+							<div class="info_txt mt5 ml5">행복나눔의 다양한 정보를 이메일로 받으실 수 있습니다.</div> 
+							</td>
+						</tr>
+						 
+					</table>
+				</div>
+			</div>
+
+			<div class="sec-btn-c">
+				<a href="join_end.html" class="btn-01 bg-black">확인</a>
+				<a href="#" class="btn-01 bg-gray">다시입력</a>
+			</div>
+
+
+		</div>
+	</div><!--- end : sec-content : class -->
+ 
+ 
+	<footer class="sec-footer">
+		<div class="sec-base-w">
+			<div class="sec-logo">
+				<img src="../common/images/ft_logo.jpg" alt="행복나눔" />
+			</div>
+			<div class="sec-row-01">
+				<ul>
+					<li class="red line-b"><a href="">이용약관</a></li>
+					<li><a href="">개인정보취급방침</a></li>
+					<li><a href="">오시는 길</a></li>
+				</ul>
+			</div>
+			<div class="sec-row-02">
+				<p>
+					<span>사회적협동조합 행복나눔 사업자등록번호 : 287-82-00092</span>         <span class="line">대표자 : 김기흥</span>
+				</p>
+				<p>
+					<span>경기도 부천시 신흥로377번길 23, 1층 행복나눔 (내동)</span>
+				</p>
+				<p>
+					<span>전화 : 070-7518-7362(본사), 070-4656-7362(물류센타)</span>         <span class="line">팩스 : 070-7709-9950</span>
+				</p>
+			</div>
+			<div class="sec-copy">COPYRIGHT ⓒ 2012 사회적협동조합 행복나눔. ALL RIGHTS RESERVED.</div>
+		</div>
+	</footer>
+</div><!-- end : wrap : id -->
+</body>
+</html>
+ 

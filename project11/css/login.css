@@ -1,0 +1,77 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.ttf);}
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.eot);}  
+/* 
+@font-face{ font-family:'BMDOHYEON'; src:url('../font/BMDOHYEON.eot'); src:url('../font/BMDOHYEON.eot?#iefix') format(‘embedded-opentype’), url('../font/BMDoHyeon.woff') format(‘woff’), url('../font/BMDOHYEON.ttf') format('truetype'), url('../font/BMDOHYEON.svg') format('svg'); }
+ */
+a{color: white! important; text-decoration: none;}
+
+*{margin:0; border:0; padding: 0;}
+body{width:100%;  font-size: 14px; font-family:"Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; /* letter-spacing: -1px; */ overflow-y:scroll; background: url(../images/login03.jpg) no-repeat; background-size:cover;}
+
+input::-webkit-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 160%;}
+input::-moz-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 160%;}
+input::-ms-placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 160%;}
+input::placeholder{color:#9DA0A4! important; font-size: 16px; line-height: 160%;}
+
+/* header */
+h1{display: none;}
+
+/* main */
+#main{width: 100%;  color: white; }
+/* 상단부터 순서대로 */
+
+/* 설명글 */
+.article01{ width: 76%; margin: 18% auto; padding: 6% 6% 1% 6%; background: rgba(0,0,0,0.6); font-size: 1.4em;}
+.article01 span.bold{font-size: 1.6em; font-weight: bold; line-height: 1.2em; }
+.article01 p{display: block;}
+.article01 span.fl{float: left; padding-top: 10px; }
+.article01 span.bg{float: left; background: #784ab0; line-height: 37px; }
+.article01 div:after{content:''; clear: both; display: block;}
+/* .article01 p.pos{position: relative; top: }  */
+
+/* 로그인창 */
+/* 글귀 */
+.article02{  width:100%; margin-top: 36%; margin-bottom: 4%; }
+.article02 a{color: white; }
+.article02:after{content:''; clear: both; display: block;}
+.article02 div.under:after{content:''; clear: both; display: block;}
+.article02 div.under{width: 185px; margin: 0 auto;}
+.article02 div.under .fl{float: left; font-size: 1.5em; font-weight: bold; }
+.article02 div.line hr{width: 100%; border-bottom: 2px solid white;}
+
+/* 버튼 */
+.article03{width: 90%; margin:0 auto; font-size: 1.2em; }
+.article03 a{color: white; }
+.article03:after{content: ""; display: block; clear: both;}
+.article03 .button1{font-weight: bold; float: left; width: 37%; text-align: center; padding: 3% 5.5%; border:2px solid white; border-radius: 4px; margin-right: 2%;  margin-bottom: 5%; }
+.article03 .button2{font-weight: bold; float: left; width: 37%; text-align: center; padding: 3% 5.5%; border:2px solid white; border-radius: 4px; margin-bottom: 5%;}
+.article03 .button3{font-weight: bold; float: left; width: 37%; text-align: center; padding: 3% 5.5%; border:2px solid white; border-radius: 4px; clear: left; margin-right: 2%; margin-bottom: 5%;}
+.article03 .button4{font-weight: bold; float: left; width: 37%; text-align: center; padding: 3% 5.5%; border:2px solid white; border-radius: 4px; margin-bottom: 5%;}
+
+/* 버튼 아이콘 가운데 정렬 */
+.article03 .button1 img{vertical-align:middle; }
+.article03 .button2 img{vertical-align:middle; }
+.article03 .button3 img{vertical-align:middle; }
+.article03 .button4 img{vertical-align:middle; }
+
+/* 버튼 내 a 패딩값 */
+.article03 .button1 a{padding: 10% 13%; }
+.article03 .button2 a{padding: 10% 13%; }
+.article03 .button3 a{padding: 10% 13%; }
+.article03 .button4 a{padding: 10% 13%; }
+
+
+
+/* 푸터 */
+/* 점선 */
+#footer .line{width: 90%; height: 2px; margin: 8% auto 0; background: url(../images/dotline.png) repeat-x; }
+
+/* 안내글 */
+.article04{width: 100%; padding-top: 6.5%;padding-bottom: 20%; text-align: center; font-size: 1.7em; color: white; font-family: BMDOHYEON,"Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial;
+ }
+.article04 .lit{font-size: 14px;}
+
+
+

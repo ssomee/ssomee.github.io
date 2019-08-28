@@ -1,0 +1,33 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{margin:0; border:0; padding: 0;}
+body{font-size: 14px; font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px;}
+
+input::-webkit-placeholder{color:#9DA0A4! important; font-size: 20px; line-height: 90%;}
+input::-moz-placeholder{color:#9DA0A4! important; font-size: 20px; line-height: 90%;}
+input::-ms-placeholder{color:#9DA0A4! important; font-size: 20px; line-height: 90%;}
+input::placeholder{color:#9DA0A4! important; font-size: 20px; line-height: 90%;}
+
+
+#title{text-align: left; margin-top: 40px; padding: 0 5% 0 5%; margin-bottom: 20px;}
+#title > span > span.point{color: #333333; font-weight: bold; font-size: 20px; letter-spacing: 0px; line-height: 35px;}
+
+
+/* article */
+#main{width: 100%; margin: 0 auto; text-align: center;}
+
+#main > .textbox > form{display: block; text-align: left; padding: 0 5% 0 5%; margin-top: 50px;}
+	#main > .textbox > form > fieldset > legend{display: block; font-size: 9px; color: #777F85; margin-bottom: 12px;}
+	#main > .textbox > form > fieldset > legend.mg{margin-top: 24px;}
+	#main > .textbox > form > fieldset > input{border-bottom: 1px solid #cbcbcb; width: 100%; padding-bottom: 2px;}
+	legend.foot{width: 100%; text-align: right; text-decoration: underline; margin-top: 5px;}
+	legend.foot a{ color: #777F85;}
+	
+#main > .main_a{padding: 50px 5% 0 5%; letter-spacing: 0px;}
+	.login_btn3{padding: 12px 0 12px 0; font-size: 23px; font-weight: bold; border-radius: 4px; background-color: #7034AE; color: #ffffff;}
+
+
+input[value^="비밀번호"]{color: #777F85;}
+input[value="닉네임"]{color: #777F85;}
+
+a:focus{outline: none;}

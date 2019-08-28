@@ -1,0 +1,38 @@
+{
+  "ftp://som9020.dothome.co.kr@som9020": {
+    ".bash_logout": {
+      "type": "-",
+      "size": 18,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bash_profile": {
+      "type": "-",
+      "size": 176,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bashrc": {
+      "type": "-",
+      "size": 124,
+      "lmtime": 0,
+      "modified": false
+    },
+    "html": {
+      "css": {},
+      "image": {},
+      "index.html": {
+        "type": "-",
+        "size": 11536,
+        "lmtime": 0,
+        "modified": false
+      },
+      "js": {},
+      "project09": {},
+      "project11": {},
+      "project_hbnanum": {},
+      "project_scuti": {}
+    }
+  },
+  "$version": 1
+}

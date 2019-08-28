@@ -1,0 +1,27 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.ttf);}
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.otf);} 
+
+*{margin:0; border:0; padding: 0;}
+body{font-size: 20px; font-family: BMDOHYEON, "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px; overflow-y: scroll;}
+
+
+#title{text-align: center; margin-top: 10px;}
+#title span{font-weight: bold; font-size: 25px; font-family: "Noto sans KR"; letter-spacing: 0px; color:#0E0E0E;}
+
+
+/* article */
+#main{width: 100%; margin: 0 auto; text-align: center;}
+
+#main > .main_a{padding: 100px 5% 0 5%; letter-spacing: 1px;}
+	.login_btn1, .login_btn2, .login_btn3, .login_btn4{margin-bottom: 20px; padding: 13px 0 13px 0; font-weight: normal; font-size: 23px; border-radius: 3px; color: #ffffff;}
+	.login_btn1{background-color: #FFE401;}
+	.login_btn2{background-color: #00E101;}
+	.login_btn3{background-color: #005DC4;}
+	.login_btn4{background-color: #7034AE;}
+
+#main > .main_b{padding-top: 147px;  height: 60px;}
+	.main_b>.txtcon{margin-bottom: 5px;}
+	.txtcon> span{font-size: 12px; color: #8C9397; letter-spacing: 0px;}
+	.sign_btn > a{font-size: 23px; letter-spacing: 0px; font-weight: normal; line-height: 20px;}

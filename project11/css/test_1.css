@@ -1,0 +1,49 @@
+﻿/* header */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.ttf);}
+@font-face{font-family: BMDOHYEON; src: url(../font/BMDOHYEON.otf);} 
+
+
+*{margin:0; border:0; padding: 0;}
+body{font-size: 14px; font-family: BMDOHYEON, "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; overflow-y: scroll; /* letter-spacing: -1px; */} 
+#wrap_head{width: 100%; height:100%; }
+h1{display: none;}
+/* Swiper top auto  배너*/
+#top_auto{}
+#top_auto .swiper-container {width: 100%;}
+#top_auto .swiper-slide {text-align: center; font-size: 18px; background: #fff; display: block; width: 100%;}
+#top_auto .swiper-slide a{width: 100%; height: 100%; display: block;}
+#top_auto .swiper-slide img{width: 100%;}
+
+/* Swiper around 근처 카페 */
+#around{}
+#around h2 {color: #555555; margin: 6px 18px; font-weight: bold; font-size: 25px;}
+#around .swiper-container {width: 100%; height: 100%; margin: 20px auto 0; padding: 20px 0 25px;}
+#around .swiper-wrapper {padding: 0 20px;}
+#around .swiper-slide { height: 100%; position: relative; }
+#around .swiper-slide a{width: 100%; display: block; height: 100%;}
+#around .swiper-slide img{width: 100%;}
+#around .swiper-slide p{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+/* Swiper info ;*/
+#info{padding-top: 1.8em; padding-bottom: 2.5em;  border-top: 1px solid #eeeeee; }
+#info h2 {color: #555555; margin: 6px 18px; font-weight: bold; font-size: 25px;}
+#info .swiper-container {width: 100%; height: 100%; margin: 20px auto 0; padding: 20px 0 25px;}
+#info .swiper-wrapper {padding: 0 20px;}
+#info .swiper-slide {height: 100%; position: relative;}
+#info .swiper-slide a{width: 100%; display: block; height: 100%;}
+#info .swiper-slide img{width: 100%;}
+#info .swiper-slide p{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+
+
+/* footer부분 */
+#nav{position: fixed; bottom: 0; left: 0; z-index: 300; width: 100%; height: 70px; background: #f6f6f6; /* background: url(../images/footer_bg.png) repeat; */} 
+.main_menu{width: 100%; border-bottom: 1px solid #dddddd; border-top: 1px solid #dddddd;  background: #f6f6f6; text-align: center; overflow: hidden; font-size: 12px; font-family: BMDOHYEON, "Noto Sans KR", "Malgun Gothic", "맑은 고딕", Arial; letter-spacing: -1px; height: 100%;}
+.main_menu:after{content:""; display: block; clear: both;}
+.main_menu li{float: left; width: 25%;}
+.main_menu li a{display: block; border: none; height: 70px; color: #aec0c5;}
+/* 메뉴 액티브 */
+.main_menu li a.tab_m{border-right: 1px solid #dddddd;}
+.main_menu li a.on{color: #7832a0;}
+/* 윗부분 고침 되~ */
+.main_menu li img{ margin: 6px 0 -5px 0; taransition: all 1s; }
